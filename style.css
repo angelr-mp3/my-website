@@ -1,14 +1,48 @@
+html {
+        padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
 body {
-    background-color: #f2f2f2;
+    background-color: #FF023D;
     text-align: center;
-    font-family: Arial, sans-serif;
-    padding-top: 60px;
+    color: #44F18A;
 }
 
-h1 {
-    color: #333;
+#Title {
+    font-family: "helvetica";
+    font-size: 18px;
+    text-align: center;
+    transform: scale(1.3);
+}
+    
+#Intro {
+    font-size: 18px;
 }
 
-p {
-    color: #666;
-}
+.third-box {
+    display: flex;
+    align-content: center;
+    justify-content: space-around; 
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;}
+
+   #hello {
+    border: solid;
+    margin: 5px;
+   }
+
+   #descrip {
+    max-width: 600px;
+    color: #44f18a;
+    font-size: 18px;
+   }
+
+@font-face {
+    font-family: "damona";
+    src: url("damona.ttf") format("truetype");
+   }
+
