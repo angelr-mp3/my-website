@@ -19,6 +19,7 @@ body {
     
 #Intro {
     font-size: 18px;
+    transform: scale(2);
 }
 
 .third-box {
