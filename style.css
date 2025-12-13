@@ -1,13 +1,28 @@
-html {
-        padding-top: 25px;
+html {margin: 0;
+    width: 100vw;
+    height: 100vh;
+        
+    
+}
+body {
+    text-align: center;
+    color: #44F18A;
+    padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 20%;
     padding-right: 20%;
+    background-image: url("big_green.jpg");
 }
-body {
-    background-color: #FF023D;
-    text-align: center;
-    color: #44F18A;
+
+
+.first-box {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    line-height: 25px;
+    background-color: #0e6462;
 }
 
 #Title {
@@ -15,11 +30,14 @@ body {
     font-size: 18px;
     text-align: center;
     transform: scale(1.3);
+    overflow: auto;
+    
 }
     
 #Intro {
-    font-size: 18px;
+    font-size: 15px;
     transform: scale(2);
+    overflow: auto;
 }
 
 .third-box {
@@ -29,21 +47,44 @@ body {
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    background-color: #0e6462;
+}
+
+p {
+    line-height: 34px;
+}
+
 
    #hello {
     border: solid;
-    margin: 5px;
+    border-width: 4px;
+    margin: 10px;
+    height: 182px;
    }
 
    #descrip {
     max-width: 600px;
     color: #44f18a;
     font-size: 18px;
+    font-family: "helvetica";
    }
+
+.second-box {
+    display: flex; 
+    align-content: center; 
+    justify-content: space-around;
+    margin-top: 20px; 
+    border: dashed; 
+}
+
 
 @font-face {
     font-family: "damona";
     src: url("damona.ttf") format("truetype");
    }
 
+@font-face {
+    font-family: "helvetica";
+    src: url("HelveticaNeue.ttf") format("truetype")
+}
