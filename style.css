@@ -17,7 +17,7 @@ body {
 
 
 .first-box {
-    margin-top: 20px;
+    margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
@@ -55,6 +55,7 @@ body {
 
 p {
     line-height: 34px;
+    color: #99ff00;
 }
 
 
@@ -79,6 +80,40 @@ p {
     justify-content: space-around;
     margin-top: 20px; 
     border: dashed; 
+}
+
+.fourth-box {
+    display: flex; 
+    align-content: center; 
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(13, 13, 185, 0.55);
+    
+    
+}
+
+#square-1 {
+    width: 58%;
+    height: 238px;
+    font-family: "helvetica";
+    font-size: 20px;
+    
+}
+
+#square-2 {
+    width: 40%;
+}
+
+
+#square-3 {
+width: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+margin-left: 5px;
+margin-right: 5px;
+line-height: 45px;
 }
 
 
