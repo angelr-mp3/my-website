@@ -117,6 +117,27 @@ figcaption {
 
 #square-2 {
     width: 40%;
+    height: auto;
+    color: #99ff00;
+    font-family: "helvetica";
+    line-height: 25px;
+    background-image: url("point.png");
+    background-size: 246px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;    
+}
+
+
+.counter {
+    width: 150px;
+    position: absolute;
+    text-align: right;
+    left: 50%;
+    top:0;
+    color: #ff91af; 
+    font-family: "helvetica";
+    font-size: 20px;
 }
 
 
